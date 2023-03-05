@@ -11,7 +11,9 @@
   box-sizing: border-box;
 }
 
-
+/* .App {
+  text-align: center;
+} */
 
 
 .App-header {
@@ -44,6 +46,7 @@
 
 
 .Movie-wrapper {
+  text-align: center;
   width: 250px;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
@@ -52,12 +55,12 @@
 
 .Movie-image{
 width: 100%;
-border-radius: 20px;
 transition: all 0.2%;
 }
 
 .Movie-date {
   font-style: italic;
+  justify-content: center;
 }
 
 .movie-item {
@@ -79,6 +82,7 @@ transition: all 0.2%;
   font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
+  justify-content: center;
 }
 
 .Movie-search {

@@ -50,7 +50,7 @@ return (
     </div>
     <header className="App-header">
       <input placeholder="
-      cari pacar kesayangan"
+      cari film kesayangan"
       className="Movie-search"
       onChange={({target}) => search (target.value)}
       />
