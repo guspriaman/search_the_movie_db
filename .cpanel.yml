@@ -3,7 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/u1663928/public_html/search-the_movie_db
     - /bin/cp .env $DEPLOYPATH
-    - /bin/cp .gitignote $DEPLOYPATH
+    - /bin/cp .gitignore $DEPLOYPATH
     - /bin/cp .package-lock.json $DEPLOYPATH
     - /bin/cp .package.json $DEPLOYPATH
     - /bin/cp readme.md $DEPLOYPATH
