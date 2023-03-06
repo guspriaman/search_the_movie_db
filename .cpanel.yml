@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1663928/public_html/seart-the_movie_db
+    - /bin/cp .env $DEPLOYPATH
+    - /bin/cp .gitignote $DEPLOYPATH
+    - /bin/cp .package-lock.json $DEPLOYPATH
+    - /bin/cp .package.json $DEPLOYPATH
+    - /bin/cp readme.md $DEPLOYPATH
+    - /bin/cp -R node_modules $DEPLOYPATH    
+    - /bin/cp -R src $DEPLOYPATH    
+    - /bin/cp -R public $DEPLOYPATH    
