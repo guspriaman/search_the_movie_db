@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1663928/public_html/seart-the_movie_db
+    - export DEPLOYPATH=/home/u1663928/public_html/search-the_movie_db
     - /bin/cp .env $DEPLOYPATH
     - /bin/cp .gitignote $DEPLOYPATH
     - /bin/cp .package-lock.json $DEPLOYPATH
