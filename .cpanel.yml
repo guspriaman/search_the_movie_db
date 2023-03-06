@@ -4,8 +4,8 @@ deployment:
     - export DEPLOYPATH=/home/u1663928/public_html/search_the_movie_db
     - /bin/cp .env $DEPLOYPATH
     - /bin/cp .gitignore $DEPLOYPATH
-    - /bin/cp .package-lock.json $DEPLOYPATH
-    - /bin/cp .package.json $DEPLOYPATH
+    - /bin/cp package-lock.json $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
     - /bin/cp README.md $DEPLOYPATH
     - /bin/cp -R node_modules $DEPLOYPATH    
     - /bin/cp -R src $DEPLOYPATH    
