@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1663928/public_html/search-movie.guspriaman.com
+    - export DEPLOYPATH=/home/u1663928/public_html/react-movie-app
     - /bin/cp .env $DEPLOYPATH
     - /bin/cp .gitignore $DEPLOYPATH
     - /bin/cp package-lock.json $DEPLOYPATH
